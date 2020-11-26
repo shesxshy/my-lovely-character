@@ -1,0 +1,22 @@
+h1{
+    font-size: 40px;
+    color: palevioletred;
+    text-align: center;
+    }
+
+.grande 
+{
+font-size: 100px; 
+}
+
+.maiuscula
+{
+text-transform: uppercase;
+}
+.grande.maiuscula{
+text-shadow: 6px 6px 8px #333333;
+}
+
+h1 span {
+color:plum;
+}
