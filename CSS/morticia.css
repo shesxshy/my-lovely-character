@@ -1,4 +1,62 @@
 body{
-    background-color:#000000;
+    margin: 0;
+    background-color: rgb(148, 100, 110);
+    font-size: 15px;
+    line-height: 20px;
+}
+header {
+    background-color: rgb(134, 22, 22);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+header h1 
+{
+    color: rgb(165, 139, 144);
+}
+header img {
+    border-radius: 165px; /*para por a imagem redonda*/
+    width: 300px;
+    /*height: 300px;   isto se a imagem nao for completamente quadrada, o que é */
+    /*object-fit: cover;  para impedir que ela fique esticada*/
+    border: 15px solid #000000;
+}
 
+h1, h2{
+    font-family: 'Texturina', serif;
+    font-size: 50px;
+}
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+main img {
+    max-width: 100%;
+}
+h2{
+    font-size: 40px;
+    color:  rgb(134, 22, 22);
+}
+p{
+    font-size: 15px;
+}
+a{
+    color:  rgb(61, 35, 46);
+}
+a:hover {
+    color: rgb(122, 12, 45)
+}
+footer{
+    background-color: rgb(134, 22, 22);
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+.caption {
+    color: rgb(43, 35, 35);
+    margin: 0;
+    font-style: italic;
+    text-align: right;
+    font-size: 12px;
 }
